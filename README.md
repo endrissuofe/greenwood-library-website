@@ -33,7 +33,7 @@ Jamie
 - Created a new branch add-book-reviews:  
   ```bash
   git checkout -b add-book-reviews
- ![create branch](Screenshots/Create-Jamie_branch.png)
+![create branch](Screenshots/Create-Jamie_branch.png)
 
 - Added book-review with content
 ![Added book_review with content](Screenshots/Book-reviews.png)
@@ -47,6 +47,7 @@ Jamie
  
  - Created a pull request for add-book-reviews on GitHub
  ![pull request](Screenshots/morgan-pr2.png)
+
  - Merged the pull request into main
  ![Merged](Screenshots/morgan-merge.png)
 
@@ -56,19 +57,24 @@ Jamie
   ```bash
   git checkout -b update-events
  ![Morgan Branch](Screenshots/Create-Jamie_branch.png)
-- Updated events.html with upcoming events.Updated Events File
+ 
+- Updated events.html with upcoming events
   ![Update_event](Screenshots/update-events-file.png)
+  
 - Pulled the latest changes from main to avoid conflicts
   ```bash
   git pull origin main
  ![git pull origin](Screenshots/pull-main-changes.png)
+ 
 - Staged, committed, and pushed the changes:
   ```bash
   git add events.html
   git commit -m "Update events page with upcoming events"
   git push origin update-events
  ![Commit push](Screenshots/Commit-Push.png)
+ 
 - Created a pull request for update-events on GitHub.
  ![compare and pull ](Screenshots/jamie-pr1.png)
- Merged the pull request into main
+
+- Merged the pull request into main
  ![merged](Screenshots/merge-jamie.png)
