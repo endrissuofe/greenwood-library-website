@@ -17,3 +17,14 @@ Jamie
   git clone https://github.com/endrissuofe/greenwood-library-website.git
   cd greenwood-library-website
  ![Repository Clone](screenshots/Clone-website.png)
+
+ ### 2. Initial Website Files
+- Created home.html, about_us.html, events.html, and contact_us.html with basic content in the main branch.  
+![Website Files](screenshots/website-files.png)
+
+- Staged, committed, and pushed the files to main:  
+  ```bash
+  git add .
+  git commit -m "Add initial website files: home, about_us, events, contact_us"
+  git push origin main
+ ![Website Files](screenshots/Commit-Push.png)
